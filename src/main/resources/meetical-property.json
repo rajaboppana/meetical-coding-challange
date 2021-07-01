@@ -1,0 +1,37 @@
+{
+  "isMeeticalPage": 1,
+  "event": {
+    "id": "5np4676s45e64j49uc6tj6iad0",
+    "isCancelled": 0,
+    "recurringEventId": null,
+    "summary": "One on One Meeting - Anna / John",
+    "description": "An example for a 1-on-1 meeting<br /><br /><br />",
+    "location": null,
+    "startDateTime": "2020-10-05T08:00:00Z",
+    "endDateTime": "2020-10-05T09:00:00Z",
+    "recurringRulesHumanFriendly": null,
+    "recurringRulesRaw": null,
+    "recurringEndDate": "",
+    "calendarHtmlLinkProxy": "https://app.meetical.io/redirect/calendar-html-link-proxy?event_id=5np4676s45e64j49uc6tj6iad0",
+    "attendees": [
+      {
+        "email": "john.michael.freeman@outlook.com",
+        "isOrganizer": 0,
+        "isResource": 0,
+        "responseStatus": "needsAction"
+      },
+      {
+        "email": "anna.berlin.meetical@gmail.com",
+        "isOrganizer": 1,
+        "isResource": 0,
+        "responseStatus": "accepted"
+      }
+    ]
+  },
+  "calendarId": "anna.berlin.meetical@gmail.com",
+  "templateId": -2,
+  "subPageTemplateId": null,
+  "meetingPageType": "SINGLE_EVENT",
+  "calendarProvider": "GOOGLE",
+  "recurringAutomation": null
+}

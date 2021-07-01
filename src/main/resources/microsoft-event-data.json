@@ -1,0 +1,1029 @@
+{
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('d2f628cc-686f-4c65-a8ed-2ca21bd02569')/events",
+    "value": [
+    {
+        "@odata.etag": "W/\"0LnCFA3FH0az5WR7ZWrLHwAAJyZW3Q==\"",
+        "id": "AAMkADZiNDg2YmFhLTE1ODYtNGU3ZS05YjQ2LTUzYzA5Nzk1YjYxYQBGAAAAAAA_L5cqTQMaT52SorIgKc3mBwDQucIUDcUfRrPlZHtlassfAAAAAAENAADQucIUDcUfRrPlZHtlassfAAAgBz4GAAA=",
+        "createdDateTime": "2021-04-21T14:01:57.2850497Z",
+        "lastModifiedDateTime": "2021-05-02T20:49:35.4595949Z",
+        "changeKey": "0LnCFA3FH0az5WR7ZWrLHwAAJyZW3Q==",
+        "categories": [],
+        "transactionId": null,
+        "originalStartTimeZone": "W. Europe Standard Time",
+        "originalEndTimeZone": "W. Europe Standard Time",
+        "iCalUId": "040000008200E00074C5B7101A82E0080000000040FC795FB636D701000000000000000010000000F37D5536F6E4434083A216043FAB0EBF",
+        "reminderMinutesBeforeStart": 15,
+        "isReminderOn": true,
+        "hasAttachments": false,
+        "subject": "Nice meeting",
+        "bodyPreview": "",
+        "importance": "normal",
+        "sensitivity": "normal",
+        "isAllDay": false,
+        "isCancelled": false,
+        "isOrganizer": false,
+        "responseRequested": true,
+        "seriesMasterId": null,
+        "showAs": "tentative",
+        "type": "seriesMaster",
+        "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADZiNDg2YmFhLTE1ODYtNGU3ZS05YjQ2LTUzYzA5Nzk1YjYxYQBGAAAAAAA%2BL5cqTQMaT52SorIgKc3mBwDQucIUDcUfRrPlZHtlassfAAAAAAENAADQucIUDcUfRrPlZHtlassfAAAgBz4GAAA%3D&exvsurl=1&path=/calendar/item",
+        "onlineMeetingUrl": null,
+        "isOnlineMeeting": false,
+        "onlineMeetingProvider": "unknown",
+        "allowNewTimeProposals": true,
+        "isDraft": false,
+        "hideAttendees": false,
+        "onlineMeeting": null,
+        "responseStatus": {
+            "response": "notResponded",
+            "time": "0001-01-01T00:00:00Z"
+        },
+        "body": {
+            "contentType": "html",
+            "content": ""
+        },
+        "start": {
+            "dateTime": "2021-04-21T14:30:00.0000000",
+            "timeZone": "UTC"
+        },
+        "end": {
+            "dateTime": "2021-04-21T15:00:00.0000000",
+            "timeZone": "UTC"
+        },
+        "location": {
+            "displayName": "",
+            "locationType": "default",
+            "uniqueIdType": "unknown",
+            "address": {},
+            "coordinates": {}
+        },
+        "locations": [],
+        "recurrence": {
+            "pattern": {
+                "type": "weekly",
+                "interval": 1,
+                "month": 0,
+                "dayOfMonth": 0,
+                "daysOfWeek": [
+                    "wednesday"
+                ],
+                "firstDayOfWeek": "sunday",
+                "index": "first"
+            },
+            "range": {
+                "type": "endDate",
+                "startDate": "2021-04-21",
+                "endDate": "2021-10-13",
+                "recurrenceTimeZone": "W. Europe Standard Time",
+                "numberOfOccurrences": 0
+            }
+        },
+        "attendees": [
+            {
+                "type": "required",
+                "status": {
+                    "response": "none",
+                    "time": "0001-01-01T00:00:00Z"
+                },
+                "emailAddress": {
+                    "name": "Lukas Gotter",
+                    "address": "lukas@meetical.onmicrosoft.com"
+                }
+            },
+            {
+                "type": "required",
+                "status": {
+                    "response": "none",
+                    "time": "0001-01-01T00:00:00Z"
+                },
+                "emailAddress": {
+                    "name": "Falco",
+                    "address": "falco@meetical.onmicrosoft.com"
+                }
+            },
+            {
+                "type": "required",
+                "status": {
+                    "response": "none",
+                    "time": "0001-01-01T00:00:00Z"
+                },
+                "emailAddress": {
+                    "name": "Adele Vance",
+                    "address": "AdeleV@meetical.onmicrosoft.com"
+                }
+            }
+        ],
+        "organizer": {
+            "emailAddress": {
+                "name": "Lukas Gotter",
+                "address": "lukas@meetical.onmicrosoft.com"
+            }
+        }
+    },
+    {
+        "@odata.etag": "W/\"0LnCFA3FH0az5WR7ZWrLHwAAH/nC7Q==\"",
+        "id": "AAMkADZiNDg2YmFhLTE1ODYtNGU3ZS05YjQ2LTUzYzA5Nzk1YjYxYQBGAAAAAAA_L5cqTQMaT52SorIgKc3mBwDQucIUDcUfRrPlZHtlassfAAAAAAENAADQucIUDcUfRrPlZHtlassfAAAgBz4FAAA=",
+        "createdDateTime": "2021-04-21T12:38:21.5628748Z",
+        "lastModifiedDateTime": "2021-04-21T12:46:29.7096694Z",
+        "changeKey": "0LnCFA3FH0az5WR7ZWrLHwAAH/nC7Q==",
+        "categories": [],
+        "transactionId": null,
+        "originalStartTimeZone": "W. Europe Standard Time",
+        "originalEndTimeZone": "W. Europe Standard Time",
+        "iCalUId": "040000008200E00074C5B7101A82E008000000003D814735AB36D701000000000000000010000000E944C01A7C680C4F9B72CAD4F3728CAE",
+        "reminderMinutesBeforeStart": 15,
+        "isReminderOn": false,
+        "hasAttachments": false,
+        "subject": "Amazing team meeting",
+        "bodyPreview": "",
+        "importance": "normal",
+        "sensitivity": "normal",
+        "isAllDay": false,
+        "isCancelled": false,
+        "isOrganizer": false,
+        "responseRequested": true,
+        "seriesMasterId": null,
+        "showAs": "tentative",
+        "type": "singleInstance",
+        "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADZiNDg2YmFhLTE1ODYtNGU3ZS05YjQ2LTUzYzA5Nzk1YjYxYQBGAAAAAAA%2BL5cqTQMaT52SorIgKc3mBwDQucIUDcUfRrPlZHtlassfAAAAAAENAADQucIUDcUfRrPlZHtlassfAAAgBz4FAAA%3D&exvsurl=1&path=/calendar/item",
+        "onlineMeetingUrl": null,
+        "isOnlineMeeting": false,
+        "onlineMeetingProvider": "unknown",
+        "allowNewTimeProposals": true,
+        "isDraft": false,
+        "hideAttendees": false,
+        "recurrence": null,
+        "onlineMeeting": null,
+        "responseStatus": {
+            "response": "notResponded",
+            "time": "0001-01-01T00:00:00Z"
+        },
+        "body": {
+            "contentType": "html",
+            "content": "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta content=\"text/html; charset=us-ascii\"></head><body><div><br></div></body></html>"
+        },
+        "start": {
+            "dateTime": "2021-04-21T13:00:00.0000000",
+            "timeZone": "UTC"
+        },
+        "end": {
+            "dateTime": "2021-04-21T13:30:00.0000000",
+            "timeZone": "UTC"
+        },
+        "location": {
+            "displayName": "",
+            "locationType": "default",
+            "uniqueIdType": "unknown",
+            "address": {},
+            "coordinates": {}
+        },
+        "locations": [],
+        "attendees": [
+            {
+                "type": "required",
+                "status": {
+                    "response": "none",
+                    "time": "0001-01-01T00:00:00Z"
+                },
+                "emailAddress": {
+                    "name": "Lukas Gotter",
+                    "address": "lukas@meetical.onmicrosoft.com"
+                }
+            },
+            {
+                "type": "required",
+                "status": {
+                    "response": "none",
+                    "time": "0001-01-01T00:00:00Z"
+                },
+                "emailAddress": {
+                    "name": "Falco",
+                    "address": "falco@meetical.onmicrosoft.com"
+                }
+            }
+        ],
+        "organizer": {
+            "emailAddress": {
+                "name": "Lukas Gotter",
+                "address": "lukas@meetical.onmicrosoft.com"
+            }
+        }
+    },
+    {
+        "@odata.etag": "W/\"0LnCFA3FH0az5WR7ZWrLHwAAF6a6rg==\"",
+        "id": "AAMkADZiNDg2YmFhLTE1ODYtNGU3ZS05YjQ2LTUzYzA5Nzk1YjYxYQBGAAAAAAA_L5cqTQMaT52SorIgKc3mBwDQucIUDcUfRrPlZHtlassfAAAAAAENAADQucIUDcUfRrPlZHtlassfAAATugGJAAA=",
+        "createdDateTime": "2021-04-02T08:20:55.3692158Z",
+        "lastModifiedDateTime": "2021-04-08T10:14:51.9923221Z",
+        "changeKey": "0LnCFA3FH0az5WR7ZWrLHwAAF6a6rg==",
+        "categories": [],
+        "transactionId": null,
+        "originalStartTimeZone": "W. Europe Standard Time",
+        "originalEndTimeZone": "W. Europe Standard Time",
+        "iCalUId": "040000008200E00074C5B7101A82E00800000000344CB0189927D701000000000000000010000000AE44512E83D40F418898BD78B8B3D9E3",
+        "reminderMinutesBeforeStart": 15,
+        "isReminderOn": true,
+        "hasAttachments": false,
+        "subject": "Test future",
+        "bodyPreview": "-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --Confluence page for this event: Test future (This Link was automatically added by Meetical.io)",
+        "importance": "normal",
+        "sensitivity": "normal",
+        "isAllDay": false,
+        "isCancelled": false,
+        "isOrganizer": false,
+        "responseRequested": true,
+        "seriesMasterId": null,
+        "showAs": "tentative",
+        "type": "singleInstance",
+        "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADZiNDg2YmFhLTE1ODYtNGU3ZS05YjQ2LTUzYzA5Nzk1YjYxYQBGAAAAAAA%2BL5cqTQMaT52SorIgKc3mBwDQucIUDcUfRrPlZHtlassfAAAAAAENAADQucIUDcUfRrPlZHtlassfAAATugGJAAA%3D&exvsurl=1&path=/calendar/item",
+        "onlineMeetingUrl": null,
+        "isOnlineMeeting": false,
+        "onlineMeetingProvider": "unknown",
+        "allowNewTimeProposals": true,
+        "isDraft": false,
+        "hideAttendees": false,
+        "recurrence": null,
+        "onlineMeeting": null,
+        "responseStatus": {
+            "response": "notResponded",
+            "time": "0001-01-01T00:00:00Z"
+        },
+        "body": {
+            "contentType": "html",
+            "content": "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta content=\"text/html; charset=us-ascii\"><meta content=\"text/html; charset=us-ascii\"></head><body><br>-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --<br>Confluence page for this event: <a href=\"https://meetical-dev3.atlassian.net/wiki/pages/viewpage.action?pageId=415236097\">Test future</a> (This Link was automatically added by Meetical.io)</body></html>"
+        },
+        "start": {
+            "dateTime": "2021-04-05T10:30:00.0000000",
+            "timeZone": "UTC"
+        },
+        "end": {
+            "dateTime": "2021-04-05T11:00:00.0000000",
+            "timeZone": "UTC"
+        },
+        "location": {
+            "displayName": "",
+            "locationType": "default",
+            "uniqueIdType": "unknown",
+            "address": {},
+            "coordinates": {}
+        },
+        "locations": [],
+        "attendees": [
+            {
+                "type": "required",
+                "status": {
+                    "response": "none",
+                    "time": "0001-01-01T00:00:00Z"
+                },
+                "emailAddress": {
+                    "name": "Lukas Gotter",
+                    "address": "lukas@meetical.onmicrosoft.com"
+                }
+            },
+            {
+                "type": "required",
+                "status": {
+                    "response": "none",
+                    "time": "0001-01-01T00:00:00Z"
+                },
+                "emailAddress": {
+                    "name": "Falco",
+                    "address": "falco@meetical.onmicrosoft.com"
+                }
+            }
+        ],
+        "organizer": {
+            "emailAddress": {
+                "name": "Lukas Gotter",
+                "address": "lukas@meetical.onmicrosoft.com"
+            }
+        }
+    },
+    {
+        "@odata.etag": "W/\"0LnCFA3FH0az5WR7ZWrLHwAAE7FDYg==\"",
+        "id": "AAMkADZiNDg2YmFhLTE1ODYtNGU3ZS05YjQ2LTUzYzA5Nzk1YjYxYQBGAAAAAAA_L5cqTQMaT52SorIgKc3mBwDQucIUDcUfRrPlZHtlassfAAAAAAENAADQucIUDcUfRrPlZHtlassfAAATugGIAAA=",
+        "createdDateTime": "2021-04-02T08:00:00.0839543Z",
+        "lastModifiedDateTime": "2021-04-02T08:00:32.4629221Z",
+        "changeKey": "0LnCFA3FH0az5WR7ZWrLHwAAE7FDYg==",
+        "categories": [],
+        "transactionId": null,
+        "originalStartTimeZone": "W. Europe Standard Time",
+        "originalEndTimeZone": "W. Europe Standard Time",
+        "iCalUId": "040000008200E00074C5B7101A82E008000000000E51AA2C9627D7010000000000000000100000001C743017E276BC46985316B8BD90963F",
+        "reminderMinutesBeforeStart": 15,
+        "isReminderOn": true,
+        "hasAttachments": false,
+        "subject": "Canceled: test del",
+        "bodyPreview": "adsf",
+        "importance": "high",
+        "sensitivity": "normal",
+        "isAllDay": false,
+        "isCancelled": true,
+        "isOrganizer": false,
+        "responseRequested": true,
+        "seriesMasterId": null,
+        "showAs": "free",
+        "type": "singleInstance",
+        "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADZiNDg2YmFhLTE1ODYtNGU3ZS05YjQ2LTUzYzA5Nzk1YjYxYQBGAAAAAAA%2BL5cqTQMaT52SorIgKc3mBwDQucIUDcUfRrPlZHtlassfAAAAAAENAADQucIUDcUfRrPlZHtlassfAAATugGIAAA%3D&exvsurl=1&path=/calendar/item",
+        "onlineMeetingUrl": null,
+        "isOnlineMeeting": false,
+        "onlineMeetingProvider": "unknown",
+        "allowNewTimeProposals": true,
+        "isDraft": false,
+        "hideAttendees": false,
+        "recurrence": null,
+        "onlineMeeting": null,
+        "responseStatus": {
+            "response": "notResponded",
+            "time": "0001-01-01T00:00:00Z"
+        },
+        "body": {
+            "contentType": "html",
+            "content": "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta content=\"text/html; charset=us-ascii\"></head><body><div style=\"font-family:Calibri,Arial,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)\">adsf</div></body></html>"
+        },
+        "start": {
+            "dateTime": "2021-04-02T11:00:00.0000000",
+            "timeZone": "UTC"
+        },
+        "end": {
+            "dateTime": "2021-04-02T11:30:00.0000000",
+            "timeZone": "UTC"
+        },
+        "location": {
+            "displayName": "",
+            "locationType": "default",
+            "uniqueIdType": "unknown",
+            "address": {},
+            "coordinates": {}
+        },
+        "locations": [],
+        "attendees": [
+            {
+                "type": "required",
+                "status": {
+                    "response": "none",
+                    "time": "0001-01-01T00:00:00Z"
+                },
+                "emailAddress": {
+                    "name": "Lukas Gotter",
+                    "address": "lukas@meetical.onmicrosoft.com"
+                }
+            },
+            {
+                "type": "required",
+                "status": {
+                    "response": "none",
+                    "time": "0001-01-01T00:00:00Z"
+                },
+                "emailAddress": {
+                    "name": "Falco",
+                    "address": "falco@meetical.onmicrosoft.com"
+                }
+            }
+        ],
+        "organizer": {
+            "emailAddress": {
+                "name": "Lukas Gotter",
+                "address": "lukas@meetical.onmicrosoft.com"
+            }
+        }
+    },
+    {
+        "@odata.etag": "W/\"0LnCFA3FH0az5WR7ZWrLHwAAE7E/5w==\"",
+        "id": "AAMkADZiNDg2YmFhLTE1ODYtNGU3ZS05YjQ2LTUzYzA5Nzk1YjYxYQBGAAAAAAA_L5cqTQMaT52SorIgKc3mBwDQucIUDcUfRrPlZHtlassfAAAAAAENAADQucIUDcUfRrPlZHtlassfAAATugGCAAA=",
+        "createdDateTime": "2021-04-02T06:16:09.6830683Z",
+        "lastModifiedDateTime": "2021-04-02T06:16:10.8758304Z",
+        "changeKey": "0LnCFA3FH0az5WR7ZWrLHwAAE7E/5w==",
+        "categories": [],
+        "transactionId": "fc24b75f-3ccb-56ad-11c0-281562d9a582",
+        "originalStartTimeZone": "W. Europe Standard Time",
+        "originalEndTimeZone": "W. Europe Standard Time",
+        "iCalUId": "040000008200E00074C5B7101A82E00800000000B33B61AC8727D7010000000000000000100000007ABB8986B197904E8DAE254197ED7D63",
+        "reminderMinutesBeforeStart": 15,
+        "isReminderOn": true,
+        "hasAttachments": false,
+        "subject": "another",
+        "bodyPreview": "",
+        "importance": "normal",
+        "sensitivity": "normal",
+        "isAllDay": false,
+        "isCancelled": false,
+        "isOrganizer": true,
+        "responseRequested": true,
+        "seriesMasterId": null,
+        "showAs": "busy",
+        "type": "singleInstance",
+        "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADZiNDg2YmFhLTE1ODYtNGU3ZS05YjQ2LTUzYzA5Nzk1YjYxYQBGAAAAAAA%2BL5cqTQMaT52SorIgKc3mBwDQucIUDcUfRrPlZHtlassfAAAAAAENAADQucIUDcUfRrPlZHtlassfAAATugGCAAA%3D&exvsurl=1&path=/calendar/item",
+        "onlineMeetingUrl": null,
+        "isOnlineMeeting": false,
+        "onlineMeetingProvider": "unknown",
+        "allowNewTimeProposals": true,
+        "isDraft": false,
+        "hideAttendees": false,
+        "recurrence": null,
+        "onlineMeeting": null,
+        "responseStatus": {
+            "response": "organizer",
+            "time": "0001-01-01T00:00:00Z"
+        },
+        "body": {
+            "contentType": "html",
+            "content": ""
+        },
+        "start": {
+            "dateTime": "2021-03-30T09:00:00.0000000",
+            "timeZone": "UTC"
+        },
+        "end": {
+            "dateTime": "2021-03-30T09:30:00.0000000",
+            "timeZone": "UTC"
+        },
+        "location": {
+            "displayName": "",
+            "locationType": "default",
+            "uniqueIdType": "unknown",
+            "address": {},
+            "coordinates": {}
+        },
+        "locations": [],
+        "attendees": [],
+        "organizer": {
+            "emailAddress": {
+                "name": "Falco",
+                "address": "falco@meetical.onmicrosoft.com"
+            }
+        }
+    },
+    {
+        "@odata.etag": "W/\"0LnCFA3FH0az5WR7ZWrLHwAAF6a6vQ==\"",
+        "id": "AAMkADZiNDg2YmFhLTE1ODYtNGU3ZS05YjQ2LTUzYzA5Nzk1YjYxYQBGAAAAAAA_L5cqTQMaT52SorIgKc3mBwDQucIUDcUfRrPlZHtlassfAAAAAAENAADQucIUDcUfRrPlZHtlassfAAATugGAAAA=",
+        "createdDateTime": "2021-04-02T06:14:51.2385644Z",
+        "lastModifiedDateTime": "2021-04-08T10:15:09.5830228Z",
+        "changeKey": "0LnCFA3FH0az5WR7ZWrLHwAAF6a6vQ==",
+        "categories": [],
+        "transactionId": "f5e4c52d-846e-3876-d352-0bdabb94d7c3",
+        "originalStartTimeZone": "W. Europe Standard Time",
+        "originalEndTimeZone": "W. Europe Standard Time",
+        "iCalUId": "040000008200E00074C5B7101A82E008000000002BB49F7D8727D70100000000000000001000000046C1DB201D2E0F4CB4DEC82B2F10137C",
+        "reminderMinutesBeforeStart": 15,
+        "isReminderOn": true,
+        "hasAttachments": false,
+        "subject": "Existing meeting series cross cal",
+        "bodyPreview": "",
+        "importance": "normal",
+        "sensitivity": "normal",
+        "isAllDay": false,
+        "isCancelled": false,
+        "isOrganizer": true,
+        "responseRequested": true,
+        "seriesMasterId": null,
+        "showAs": "busy",
+        "type": "seriesMaster",
+        "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADZiNDg2YmFhLTE1ODYtNGU3ZS05YjQ2LTUzYzA5Nzk1YjYxYQBGAAAAAAA%2BL5cqTQMaT52SorIgKc3mBwDQucIUDcUfRrPlZHtlassfAAAAAAENAADQucIUDcUfRrPlZHtlassfAAATugGAAAA%3D&exvsurl=1&path=/calendar/item",
+        "onlineMeetingUrl": null,
+        "isOnlineMeeting": false,
+        "onlineMeetingProvider": "unknown",
+        "allowNewTimeProposals": true,
+        "isDraft": false,
+        "hideAttendees": false,
+        "onlineMeeting": null,
+        "responseStatus": {
+            "response": "organizer",
+            "time": "0001-01-01T00:00:00Z"
+        },
+        "body": {
+            "contentType": "html",
+            "content": ""
+        },
+        "start": {
+            "dateTime": "2021-03-30T08:30:00.0000000",
+            "timeZone": "UTC"
+        },
+        "end": {
+            "dateTime": "2021-03-30T09:00:00.0000000",
+            "timeZone": "UTC"
+        },
+        "location": {
+            "displayName": "",
+            "locationType": "default",
+            "uniqueIdType": "unknown",
+            "address": {},
+            "coordinates": {}
+        },
+        "locations": [],
+        "recurrence": {
+            "pattern": {
+                "type": "daily",
+                "interval": 1,
+                "month": 0,
+                "dayOfMonth": 0,
+                "firstDayOfWeek": "sunday",
+                "index": "first"
+            },
+            "range": {
+                "type": "endDate",
+                "startDate": "2021-03-30",
+                "endDate": "2021-04-06",
+                "recurrenceTimeZone": "W. Europe Standard Time",
+                "numberOfOccurrences": 0
+            }
+        },
+        "attendees": [
+            {
+                "type": "required",
+                "status": {
+                    "response": "none",
+                    "time": "0001-01-01T00:00:00Z"
+                },
+                "emailAddress": {
+                    "name": "Lukas Gotter",
+                    "address": "lukas@meetical.onmicrosoft.com"
+                }
+            }
+        ],
+        "organizer": {
+            "emailAddress": {
+                "name": "Falco",
+                "address": "falco@meetical.onmicrosoft.com"
+            }
+        }
+    },
+    {
+        "@odata.etag": "W/\"0LnCFA3FH0az5WR7ZWrLHwAAE7E//w==\"",
+        "id": "AAMkADZiNDg2YmFhLTE1ODYtNGU3ZS05YjQ2LTUzYzA5Nzk1YjYxYQBGAAAAAAA_L5cqTQMaT52SorIgKc3mBwDQucIUDcUfRrPlZHtlassfAAAAAAENAADQucIUDcUfRrPlZHtlassfAAATugF-AAA=",
+        "createdDateTime": "2021-04-02T06:13:58.8665554Z",
+        "lastModifiedDateTime": "2021-04-02T06:33:26.6443509Z",
+        "changeKey": "0LnCFA3FH0az5WR7ZWrLHwAAE7E//w==",
+        "categories": [],
+        "transactionId": "02c3d92e-d8e7-5db3-8db6-67399f5b36c3",
+        "originalStartTimeZone": "W. Europe Standard Time",
+        "originalEndTimeZone": "W. Europe Standard Time",
+        "iCalUId": "040000008200E00074C5B7101A82E00800000000AE37685E8727D7010000000000000000100000006120FECFA2279F49B81FE7BD2F4B9832",
+        "reminderMinutesBeforeStart": 15,
+        "isReminderOn": true,
+        "hasAttachments": false,
+        "subject": "Existing single meeting cross cal",
+        "bodyPreview": "-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- Confluence page for this event: https://meetical-staging.atlassian.net/wiki/pages/viewpage.action?pageId=1053458435 (This Link was automatically added by Meetical.io)",
+        "importance": "normal",
+        "sensitivity": "normal",
+        "isAllDay": false,
+        "isCancelled": false,
+        "isOrganizer": true,
+        "responseRequested": true,
+        "seriesMasterId": null,
+        "showAs": "busy",
+        "type": "singleInstance",
+        "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADZiNDg2YmFhLTE1ODYtNGU3ZS05YjQ2LTUzYzA5Nzk1YjYxYQBGAAAAAAA%2BL5cqTQMaT52SorIgKc3mBwDQucIUDcUfRrPlZHtlassfAAAAAAENAADQucIUDcUfRrPlZHtlassfAAATugF%2FAAA%3D&exvsurl=1&path=/calendar/item",
+        "onlineMeetingUrl": null,
+        "isOnlineMeeting": false,
+        "onlineMeetingProvider": "unknown",
+        "allowNewTimeProposals": true,
+        "isDraft": false,
+        "hideAttendees": false,
+        "recurrence": null,
+        "onlineMeeting": null,
+        "responseStatus": {
+            "response": "organizer",
+            "time": "0001-01-01T00:00:00Z"
+        },
+        "body": {
+            "contentType": "html",
+            "content": "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta content=\"text/html; charset=us-ascii\"></head><body>-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- Confluence page for this event: https://meetical-staging.atlassian.net/wiki/pages/viewpage.action?pageId=1053458435 (This Link was automatically added by Meetical.io)</body></html>"
+        },
+        "start": {
+            "dateTime": "2021-03-30T07:30:00.0000000",
+            "timeZone": "UTC"
+        },
+        "end": {
+            "dateTime": "2021-03-30T08:00:00.0000000",
+            "timeZone": "UTC"
+        },
+        "location": {
+            "displayName": "",
+            "locationType": "default",
+            "uniqueIdType": "unknown",
+            "address": {},
+            "coordinates": {}
+        },
+        "locations": [],
+        "attendees": [
+            {
+                "type": "required",
+                "status": {
+                    "response": "none",
+                    "time": "0001-01-01T00:00:00Z"
+                },
+                "emailAddress": {
+                    "name": "Lukas Gotter",
+                    "address": "lukas@meetical.onmicrosoft.com"
+                }
+            }
+        ],
+        "organizer": {
+            "emailAddress": {
+                "name": "Falco",
+                "address": "falco@meetical.onmicrosoft.com"
+            }
+        }
+    },
+    {
+        "@odata.etag": "W/\"0LnCFA3FH0az5WR7ZWrLHwAAE7E/uQ==\"",
+        "id": "AAMkADZiNDg2YmFhLTE1ODYtNGU3ZS05YjQ2LTUzYzA5Nzk1YjYxYQBGAAAAAAA_L5cqTQMaT52SorIgKc3mBwDQucIUDcUfRrPlZHtlassfAAAAAAENAADQucIUDcUfRrPlZHtlassfAAATugF_AAA=",
+        "createdDateTime": "2021-04-02T06:11:18.9129743Z",
+        "lastModifiedDateTime": "2021-04-02T06:15:03.0735889Z",
+        "changeKey": "0LnCFA3FH0az5WR7ZWrLHwAAE7E/uQ==",
+        "categories": [],
+        "transactionId": "a0777726-3689-7842-3bee-aa55012438de",
+        "originalStartTimeZone": "W. Europe Standard Time",
+        "originalEndTimeZone": "W. Europe Standard Time",
+        "iCalUId": "040000008200E00074C5B7101A82E00800000000E03C11FF8627D701000000000000000010000000C7205AB20B55C640894636C15D19BD4F",
+        "reminderMinutesBeforeStart": 15,
+        "isReminderOn": true,
+        "hasAttachments": false,
+        "subject": "Falcos nice meeting",
+        "bodyPreview": "",
+        "importance": "normal",
+        "sensitivity": "normal",
+        "isAllDay": false,
+        "isCancelled": false,
+        "isOrganizer": true,
+        "responseRequested": true,
+        "seriesMasterId": null,
+        "showAs": "busy",
+        "type": "singleInstance",
+        "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADZiNDg2YmFhLTE1ODYtNGU3ZS05YjQ2LTUzYzA5Nzk1YjYxYQBGAAAAAAA%2BL5cqTQMaT52SorIgKc3mBwDQucIUDcUfRrPlZHtlassfAAAAAAENAADQucIUDcUfRrPlZHtlassfAAATugF%2BAAA%3D&exvsurl=1&path=/calendar/item",
+        "onlineMeetingUrl": null,
+        "isOnlineMeeting": false,
+        "onlineMeetingProvider": "unknown",
+        "allowNewTimeProposals": true,
+        "isDraft": false,
+        "hideAttendees": false,
+        "recurrence": null,
+        "onlineMeeting": null,
+        "responseStatus": {
+            "response": "organizer",
+            "time": "0001-01-01T00:00:00Z"
+        },
+        "body": {
+            "contentType": "html",
+            "content": ""
+        },
+        "start": {
+            "dateTime": "2021-04-06T06:30:00.0000000",
+            "timeZone": "UTC"
+        },
+        "end": {
+            "dateTime": "2021-04-06T07:00:00.0000000",
+            "timeZone": "UTC"
+        },
+        "location": {
+            "displayName": "",
+            "locationType": "default",
+            "uniqueIdType": "unknown",
+            "address": {},
+            "coordinates": {}
+        },
+        "locations": [],
+        "attendees": [],
+        "organizer": {
+            "emailAddress": {
+                "name": "Falco",
+                "address": "falco@meetical.onmicrosoft.com"
+            }
+        }
+    },
+    {
+        "@odata.etag": "W/\"0LnCFA3FH0az5WR7ZWrLHwAADHJOnQ==\"",
+        "id": "AAMkADZiNDg2YmFhLTE1ODYtNGU3ZS05YjQ2LTUzYzA5Nzk1YjYxYQBGAAAAAAA_L5cqTQMaT52SorIgKc3mBwDQucIUDcUfRrPlZHtlassfAAAAAAENAADQucIUDcUfRrPlZHtlassfAAAMd5mkAAA=",
+        "createdDateTime": "2021-03-22T19:54:00.6111414Z",
+        "lastModifiedDateTime": "2021-03-22T19:54:02.0050201Z",
+        "changeKey": "0LnCFA3FH0az5WR7ZWrLHwAADHJOnQ==",
+        "categories": [],
+        "transactionId": null,
+        "originalStartTimeZone": "W. Europe Standard Time",
+        "originalEndTimeZone": "W. Europe Standard Time",
+        "iCalUId": "040000008200E00074C5B7101A82E0080000000000563B14551FD701000000000000000010000000CA2672C51F9B8744971669D3823BFB12",
+        "reminderMinutesBeforeStart": 15,
+        "isReminderOn": true,
+        "hasAttachments": false,
+        "subject": "CheckD",
+        "bodyPreview": "",
+        "importance": "normal",
+        "sensitivity": "normal",
+        "isAllDay": false,
+        "isCancelled": false,
+        "isOrganizer": false,
+        "responseRequested": true,
+        "seriesMasterId": null,
+        "showAs": "tentative",
+        "type": "singleInstance",
+        "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADZiNDg2YmFhLTE1ODYtNGU3ZS05YjQ2LTUzYzA5Nzk1YjYxYQBGAAAAAAA%2BL5cqTQMaT52SorIgKc3mBwDQucIUDcUfRrPlZHtlassfAAAAAAENAADQucIUDcUfRrPlZHtlassfAAAMd5mkAAA%3D&exvsurl=1&path=/calendar/item",
+        "onlineMeetingUrl": "",
+        "isOnlineMeeting": false,
+        "onlineMeetingProvider": "unknown",
+        "allowNewTimeProposals": true,
+        "isDraft": false,
+        "hideAttendees": false,
+        "recurrence": null,
+        "onlineMeeting": null,
+        "responseStatus": {
+            "response": "notResponded",
+            "time": "0001-01-01T00:00:00Z"
+        },
+        "body": {
+            "contentType": "html",
+            "content": ""
+        },
+        "start": {
+            "dateTime": "2021-03-22T16:30:00.0000000",
+            "timeZone": "UTC"
+        },
+        "end": {
+            "dateTime": "2021-03-22T17:00:00.0000000",
+            "timeZone": "UTC"
+        },
+        "location": {
+            "displayName": "",
+            "locationType": "default",
+            "uniqueIdType": "unknown",
+            "address": {},
+            "coordinates": {}
+        },
+        "locations": [],
+        "attendees": [
+            {
+                "type": "required",
+                "status": {
+                    "response": "none",
+                    "time": "0001-01-01T00:00:00Z"
+                },
+                "emailAddress": {
+                    "name": "Lukas Gotter",
+                    "address": "lukas@meetical.onmicrosoft.com"
+                }
+            },
+            {
+                "type": "required",
+                "status": {
+                    "response": "notResponded",
+                    "time": "0001-01-01T00:00:00Z"
+                },
+                "emailAddress": {
+                    "name": "Falco",
+                    "address": "falco@meetical.onmicrosoft.com"
+                }
+            }
+        ],
+        "organizer": {
+            "emailAddress": {
+                "name": "Lukas Gotter",
+                "address": "lukas@meetical.onmicrosoft.com"
+            }
+        }
+    },
+    {
+        "@odata.etag": "W/\"0LnCFA3FH0az5WR7ZWrLHwAADHJOxw==\"",
+        "id": "AAMkADZiNDg2YmFhLTE1ODYtNGU3ZS05YjQ2LTUzYzA5Nzk1YjYxYQBGAAAAAAA_L5cqTQMaT52SorIgKc3mBwDQucIUDcUfRrPlZHtlassfAAAAAAENAADQucIUDcUfRrPlZHtlassfAAAMd5mjAAA=",
+        "createdDateTime": "2021-03-22T19:30:52.9828798Z",
+        "lastModifiedDateTime": "2021-03-22T20:39:28.1318832Z",
+        "changeKey": "0LnCFA3FH0az5WR7ZWrLHwAADHJOxw==",
+        "categories": [],
+        "transactionId": "3064a1db-c19f-256f-326f-04ce2d47c0fc",
+        "originalStartTimeZone": "W. Europe Standard Time",
+        "originalEndTimeZone": "W. Europe Standard Time",
+        "iCalUId": "040000008200E00074C5B7101A82E0080000000077454CDF511FD701000000000000000010000000182D748CB8CC4F48B5F4A9BDF0DC3322",
+        "reminderMinutesBeforeStart": 15,
+        "isReminderOn": true,
+        "hasAttachments": false,
+        "subject": "CheckC",
+        "bodyPreview": "",
+        "importance": "normal",
+        "sensitivity": "normal",
+        "isAllDay": false,
+        "isCancelled": false,
+        "isOrganizer": true,
+        "responseRequested": true,
+        "seriesMasterId": null,
+        "showAs": "busy",
+        "type": "singleInstance",
+        "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADZiNDg2YmFhLTE1ODYtNGU3ZS05YjQ2LTUzYzA5Nzk1YjYxYQBGAAAAAAA%2BL5cqTQMaT52SorIgKc3mBwDQucIUDcUfRrPlZHtlassfAAAAAAENAADQucIUDcUfRrPlZHtlassfAAAMd5mjAAA%3D&exvsurl=1&path=/calendar/item",
+        "onlineMeetingUrl": null,
+        "isOnlineMeeting": false,
+        "onlineMeetingProvider": "unknown",
+        "allowNewTimeProposals": true,
+        "isDraft": false,
+        "hideAttendees": false,
+        "recurrence": null,
+        "onlineMeeting": null,
+        "responseStatus": {
+            "response": "organizer",
+            "time": "0001-01-01T00:00:00Z"
+        },
+        "body": {
+            "contentType": "html",
+            "content": ""
+        },
+        "start": {
+            "dateTime": "2021-03-22T16:00:00.0000000",
+            "timeZone": "UTC"
+        },
+        "end": {
+            "dateTime": "2021-03-22T16:30:00.0000000",
+            "timeZone": "UTC"
+        },
+        "location": {
+            "displayName": "",
+            "locationType": "default",
+            "uniqueIdType": "unknown",
+            "address": {},
+            "coordinates": {}
+        },
+        "locations": [],
+        "attendees": [
+            {
+                "type": "required",
+                "status": {
+                    "response": "none",
+                    "time": "0001-01-01T00:00:00Z"
+                },
+                "emailAddress": {
+                    "name": "Lukas Gotter",
+                    "address": "lukas@meetical.onmicrosoft.com"
+                }
+            }
+        ],
+        "organizer": {
+            "emailAddress": {
+                "name": "Falco",
+                "address": "falco@meetical.onmicrosoft.com"
+            }
+        }
+    },
+    {
+        "@odata.etag": "W/\"0LnCFA3FH0az5WR7ZWrLHwAADHJOAw==\"",
+        "id": "AAMkADZiNDg2YmFhLTE1ODYtNGU3ZS05YjQ2LTUzYzA5Nzk1YjYxYQBGAAAAAAA_L5cqTQMaT52SorIgKc3mBwDQucIUDcUfRrPlZHtlassfAAAAAAENAADQucIUDcUfRrPlZHtlassfAAAMd5miAAA=",
+        "createdDateTime": "2021-03-22T16:18:14.3789489Z",
+        "lastModifiedDateTime": "2021-03-22T16:18:15.2202553Z",
+        "changeKey": "0LnCFA3FH0az5WR7ZWrLHwAADHJOAw==",
+        "categories": [],
+        "transactionId": "a16cffe1-24da-ba42-8868-5b1756ef9cd1",
+        "originalStartTimeZone": "W. Europe Standard Time",
+        "originalEndTimeZone": "W. Europe Standard Time",
+        "iCalUId": "040000008200E00074C5B7101A82E008000000009620D5F5361FD70100000000000000001000000021F9C4B56F31154CAC6DA62B2141E1F8",
+        "reminderMinutesBeforeStart": 15,
+        "isReminderOn": true,
+        "hasAttachments": false,
+        "subject": "CheckB",
+        "bodyPreview": "",
+        "importance": "normal",
+        "sensitivity": "normal",
+        "isAllDay": false,
+        "isCancelled": false,
+        "isOrganizer": true,
+        "responseRequested": true,
+        "seriesMasterId": null,
+        "showAs": "busy",
+        "type": "singleInstance",
+        "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADZiNDg2YmFhLTE1ODYtNGU3ZS05YjQ2LTUzYzA5Nzk1YjYxYQBGAAAAAAA%2BL5cqTQMaT52SorIgKc3mBwDQucIUDcUfRrPlZHtlassfAAAAAAENAADQucIUDcUfRrPlZHtlassfAAAMd5miAAA%3D&exvsurl=1&path=/calendar/item",
+        "onlineMeetingUrl": null,
+        "isOnlineMeeting": false,
+        "onlineMeetingProvider": "unknown",
+        "allowNewTimeProposals": true,
+        "isDraft": false,
+        "hideAttendees": false,
+        "recurrence": null,
+        "onlineMeeting": null,
+        "responseStatus": {
+            "response": "organizer",
+            "time": "0001-01-01T00:00:00Z"
+        },
+        "body": {
+            "contentType": "html",
+            "content": ""
+        },
+        "start": {
+            "dateTime": "2021-03-22T15:00:00.0000000",
+            "timeZone": "UTC"
+        },
+        "end": {
+            "dateTime": "2021-03-22T15:30:00.0000000",
+            "timeZone": "UTC"
+        },
+        "location": {
+            "displayName": "",
+            "locationType": "default",
+            "uniqueIdType": "unknown",
+            "address": {},
+            "coordinates": {}
+        },
+        "locations": [],
+        "attendees": [
+            {
+                "type": "required",
+                "status": {
+                    "response": "none",
+                    "time": "0001-01-01T00:00:00Z"
+                },
+                "emailAddress": {
+                    "name": "Lukas Gotter",
+                    "address": "lukas@meetical.onmicrosoft.com"
+                }
+            }
+        ],
+        "organizer": {
+            "emailAddress": {
+                "name": "Falco",
+                "address": "falco@meetical.onmicrosoft.com"
+            }
+        }
+    },
+    {
+        "@odata.etag": "W/\"0LnCFA3FH0az5WR7ZWrLHwAADHJNRA==\"",
+        "id": "AAMkADZiNDg2YmFhLTE1ODYtNGU3ZS05YjQ2LTUzYzA5Nzk1YjYxYQBGAAAAAAA_L5cqTQMaT52SorIgKc3mBwDQucIUDcUfRrPlZHtlassfAAAAAAENAADQucIUDcUfRrPlZHtlassfAAAMd5mhAAA=",
+        "createdDateTime": "2021-03-22T15:17:52.3997541Z",
+        "lastModifiedDateTime": "2021-03-22T16:11:29.4677035Z",
+        "changeKey": "0LnCFA3FH0az5WR7ZWrLHwAADHJNRA==",
+        "categories": [],
+        "transactionId": null,
+        "originalStartTimeZone": "W. Europe Standard Time",
+        "originalEndTimeZone": "W. Europe Standard Time",
+        "iCalUId": "040000008200E00074C5B7101A82E008000000001C85AA832E1FD7010000000000000000100000003CBBBC17938ABF4680785F3271F92B3E",
+        "reminderMinutesBeforeStart": 15,
+        "isReminderOn": true,
+        "hasAttachments": false,
+        "subject": "CheckA",
+        "bodyPreview": "-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- Confluence page for this event: https://meetical-dev3.atlassian.net/wiki/pages/viewpage.action?pageId=356614145 (This Link was automatically added by Meetical.io)",
+        "importance": "normal",
+        "sensitivity": "normal",
+        "isAllDay": false,
+        "isCancelled": false,
+        "isOrganizer": false,
+        "responseRequested": true,
+        "seriesMasterId": null,
+        "showAs": "tentative",
+        "type": "singleInstance",
+        "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADZiNDg2YmFhLTE1ODYtNGU3ZS05YjQ2LTUzYzA5Nzk1YjYxYQBGAAAAAAA%2BL5cqTQMaT52SorIgKc3mBwDQucIUDcUfRrPlZHtlassfAAAAAAENAADQucIUDcUfRrPlZHtlassfAAAMd5mhAAA%3D&exvsurl=1&path=/calendar/item",
+        "onlineMeetingUrl": null,
+        "isOnlineMeeting": false,
+        "onlineMeetingProvider": "unknown",
+        "allowNewTimeProposals": true,
+        "isDraft": false,
+        "hideAttendees": false,
+        "recurrence": null,
+        "onlineMeeting": null,
+        "responseStatus": {
+            "response": "notResponded",
+            "time": "0001-01-01T00:00:00Z"
+        },
+        "body": {
+            "contentType": "html",
+            "content": "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta content=\"text/html; charset=us-ascii\"></head><body>-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- Confluence page for this event: https://meetical-dev3.atlassian.net/wiki/pages/viewpage.action?pageId=356614145 (This Link was automatically added by Meetical.io)</body></html>"
+        },
+        "start": {
+            "dateTime": "2021-03-22T14:00:00.0000000",
+            "timeZone": "UTC"
+        },
+        "end": {
+            "dateTime": "2021-03-22T14:30:00.0000000",
+            "timeZone": "UTC"
+        },
+        "location": {
+            "displayName": "",
+            "locationType": "default",
+            "uniqueIdType": "unknown",
+            "address": {},
+            "coordinates": {}
+        },
+        "locations": [],
+        "attendees": [
+            {
+                "type": "required",
+                "status": {
+                    "response": "none",
+                    "time": "0001-01-01T00:00:00Z"
+                },
+                "emailAddress": {
+                    "name": "Lukas Gotter",
+                    "address": "lukas@meetical.onmicrosoft.com"
+                }
+            },
+            {
+                "type": "required",
+                "status": {
+                    "response": "none",
+                    "time": "0001-01-01T00:00:00Z"
+                },
+                "emailAddress": {
+                    "name": "Falco",
+                    "address": "falco@meetical.onmicrosoft.com"
+                }
+            }
+        ],
+        "organizer": {
+            "emailAddress": {
+                "name": "Lukas Gotter",
+                "address": "lukas@meetical.onmicrosoft.com"
+            }
+        }
+    }
+]
+}
