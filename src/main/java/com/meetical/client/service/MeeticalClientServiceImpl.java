@@ -12,6 +12,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.meetical.client.model.google.Attendee;
 import com.meetical.client.model.google.Item;
 import com.meetical.client.model.google.MeeticalGoogle;
+import com.meetical.client.model.microsoft.MeeticalMicrosoft;
+import com.meetical.client.model.microsoft.Value;
 import com.meetical.model.Event;
 import com.meetical.model.MeeticalAttendee;
 import com.meetical.model.MeeticalObject;
@@ -46,17 +48,17 @@ public class MeeticalClientServiceImpl implements MeeticalClientService {
 			BufferedReader br = new BufferedReader(
 					new FileReader("src/main/resources/google-event-data-anna-berlin.json"));
 
-			MeeticalGoogle googleJsonObject = mapper.readValue(br, MeeticalGoogle.class);
+			MeeticalGoogle meeticalGoogleObject = mapper.readValue(br, MeeticalGoogle.class);
 
-			List<Item> items = googleJsonObject.getItems();
+			List<Item> items = meeticalGoogleObject.getItems();
 
 			for (Item item : items) {
 
 				MeeticalObject meeticalObject = new MeeticalObject();
 
-				meeticalObject.setCalendarId(googleJsonObject.getEtag());
+				meeticalObject.setCalendarId(meeticalGoogleObject.getEtag());
 				meeticalObject.setIsMeeticalPage(1);
-				meeticalObject.setMeetingPageType(googleJsonObject.getNextPageToken());
+				meeticalObject.setMeetingPageType(meeticalGoogleObject.getNextPageToken());
 				meeticalObject.setCalendarProvider("GOOGLE");
 
 				Event event = new Event();
@@ -78,7 +80,6 @@ public class MeeticalClientServiceImpl implements MeeticalClientService {
 						MeeticalAttendee meeticalAttendee = new MeeticalAttendee();
 						meeticalAttendee.setEmail(attendee.getEmail());
 						meeticalAttendee.setIsOrganizer(item.getOrganizer().getSelf() ? 1 : 0);
-						meeticalAttendee.setIsResource(item.getOrganizer().getSelf() ? 0 : 1);
 						meeticalAttendee.setResponseStatus(attendee.getResponseStatus());
 
 						meeticalAttendees.add(meeticalAttendee);
@@ -105,7 +106,65 @@ public class MeeticalClientServiceImpl implements MeeticalClientService {
 	}
 
 	private List<MeeticalObject> getMicrosoftMeetings() {
-		// TODO Auto-generated method stub
+		List<MeeticalObject> meeticalObjects = new ArrayList<MeeticalObject>();
+
+		try {
+			// create object mapper instance
+			ObjectMapper mapper = new ObjectMapper();
+
+			BufferedReader br = new BufferedReader(
+					new FileReader("src/main/resources/microsoft-event-data.json"));
+
+			MeeticalMicrosoft meeticalMicrosoftObject = mapper.readValue(br, MeeticalMicrosoft.class);
+
+			List<Value> values = meeticalMicrosoftObject.getValue();
+
+			for (Value value : values) {
+				MeeticalObject meeticalObject = new MeeticalObject();
+
+				meeticalObject.setCalendarId(value.getICalUId());
+				meeticalObject.setIsMeeticalPage(1);
+				meeticalObject.setMeetingPageType(null);
+				meeticalObject.setCalendarProvider("MICROSOFT");
+
+				Event event = new Event();
+
+				event.setDescription(value.getSubject());
+				event.setIsCancelled(value.getIsCancelled() ? 1 : 0);
+				event.setEndDateTime(value.getEnd().getDateTime());
+				event.setStartDateTime(value.getStart().getDateTime());
+				event.setRecurringEventId(value.getRecurrence().toString());
+
+				List<com.meetical.client.model.microsoft.Attendee> attendees = value.getAttendees();
+
+				if (attendees != null) {
+
+					List<MeeticalAttendee> meeticalAttendees = new ArrayList<MeeticalAttendee>();
+
+					for (com.meetical.client.model.microsoft.Attendee attendee : attendees) {
+						MeeticalAttendee meeticalAttendee = new MeeticalAttendee();
+						meeticalAttendee.setEmail(attendee.getEmailAddress().getAddress());
+						meeticalAttendee.setIsOrganizer(value.getIsOrganizer() ? 1 : 0);
+						meeticalAttendee.setResponseStatus(attendee.getStatus().getResponse());
+
+						meeticalAttendees.add(meeticalAttendee);
+					}
+
+					event.setAttendees(meeticalAttendees);
+				}
+				event.setRecurringEventId(value.getRecurrence());
+				event.setId(value.getId());
+				event.setCalendarHtmlLinkProxy(value.getWebLink());
+
+				meeticalObject.setEvent(event);
+				meeticalObjects.add(meeticalObject);
+
+			}
+
+
+		}catch (Exception e) {
+			// TODO: handle exception
+		}
 		return null;
 	}
 
