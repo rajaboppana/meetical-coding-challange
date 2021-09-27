@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="ISO-8859-1" />
+	<title>Hello</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script>
+		$(document).ready(
+			function () {
+				$.post("http://localhost:8080/v1/meetical/anna", function (result) {
+					$.each(result.meeticalObject, function (key, value) {
+						$("#meeticalTable").append('<tr> <td>' +
+							value.event.summary + '</td> <td>' + value.event.startDateTime + ' </td> <td>' + value.event.attendees.length
+							+ '</td> </tr>');
+					});
+				});
+			});
+	</script>
+</head>
+
+<body>
+	<div id="meeticalDiv">
+		<table id="meeticalTable">
+			<thead>
+				<tr>
+					<th>Meeting</th>
+					<th>Start Date Time</th>
+					<th>Number of attendees</th>
+				</tr>
+			</thead>
+		</table>
+	</div>
+
+</body>
+
+</html>

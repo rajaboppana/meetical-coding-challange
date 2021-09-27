@@ -72,8 +72,10 @@ public class MeeticalClientServiceImpl implements MeeticalClientService {
 
 				List<Attendee> googleAttendees = item.getAttendees();
 
-				if (googleAttendees != null) {
-
+				if (googleAttendees == null || googleAttendees.isEmpty() ) {
+					List<MeeticalAttendee> meeticalAttendees = new ArrayList<MeeticalAttendee>();
+					event.setAttendees(meeticalAttendees);
+				} else {
 					List<MeeticalAttendee> meeticalAttendees = new ArrayList<MeeticalAttendee>();
 
 					for (Attendee attendee : googleAttendees) {
@@ -96,8 +98,6 @@ public class MeeticalClientServiceImpl implements MeeticalClientService {
 				meeticalObjects.add(meeticalObject);
 			}
 
-
-
 		} catch (IOException ex) {
 			throw new MeeticalClientException(ex.getMessage());
 		}
@@ -112,8 +112,7 @@ public class MeeticalClientServiceImpl implements MeeticalClientService {
 			// create object mapper instance
 			ObjectMapper mapper = new ObjectMapper();
 
-			BufferedReader br = new BufferedReader(
-					new FileReader("src/main/resources/microsoft-event-data.json"));
+			BufferedReader br = new BufferedReader(new FileReader("src/main/resources/microsoft-event-data.json"));
 
 			MeeticalMicrosoft meeticalMicrosoftObject = mapper.readValue(br, MeeticalMicrosoft.class);
 
@@ -161,8 +160,7 @@ public class MeeticalClientServiceImpl implements MeeticalClientService {
 
 			}
 
-
-		}catch (Exception e) {
+		} catch (Exception e) {
 			// TODO: handle exception
 		}
 		return null;
