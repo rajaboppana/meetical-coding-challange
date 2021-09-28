@@ -9,8 +9,6 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.meetical.client.model.google.Attendee;
-import com.meetical.client.model.google.Item;
 import com.meetical.client.model.google.MeeticalGoogle;
 import com.meetical.client.model.microsoft.MeeticalMicrosoft;
 import com.meetical.client.model.microsoft.Value;
@@ -33,76 +31,23 @@ public class MeeticalClientServiceImpl implements MeeticalClientService {
 			return getMicrosoftMeetings();
 
 		} else {
-			throw new MeeticalClientException();
+			throw new MeeticalClientException("Username not found");
 		}
 
 	}
 
 	private List<MeeticalObject> getGoogleMeetings() throws MeeticalClientException {
-		List<MeeticalObject> meeticalObjects = new ArrayList<MeeticalObject>();
-
 		try {
-			// create object mapper instance
+			BufferedReader bufferedReader =
+					new BufferedReader(new FileReader("src/main/resources/google-event-data-anna-berlin.json"));
+
 			ObjectMapper mapper = new ObjectMapper();
+			MeeticalGoogle meeticalGoogleObject = mapper.readValue(bufferedReader, MeeticalGoogle.class);
 
-			BufferedReader br = new BufferedReader(
-					new FileReader("src/main/resources/google-event-data-anna-berlin.json"));
-
-			MeeticalGoogle meeticalGoogleObject = mapper.readValue(br, MeeticalGoogle.class);
-
-			List<Item> items = meeticalGoogleObject.getItems();
-
-			for (Item item : items) {
-
-				MeeticalObject meeticalObject = new MeeticalObject();
-
-				meeticalObject.setCalendarId(meeticalGoogleObject.getEtag());
-				meeticalObject.setIsMeeticalPage(1);
-				meeticalObject.setMeetingPageType(meeticalGoogleObject.getNextPageToken());
-				meeticalObject.setCalendarProvider("GOOGLE");
-
-				Event event = new Event();
-
-				event.setDescription(item.getDescription());
-				event.setIsCancelled(item.getStatus().equals("cancelled") ? 1 : 0);
-				event.setEndDateTime(item.getEnd().getDateTime());
-				event.setStartDateTime(item.getStart().getDateTime());
-				event.setRecurringEventId(item.getRecurringEventId());
-				event.setSummary(item.getSummary());
-
-				List<Attendee> googleAttendees = item.getAttendees();
-
-				if (googleAttendees != null) {
-
-					List<MeeticalAttendee> meeticalAttendees = new ArrayList<MeeticalAttendee>();
-
-					for (Attendee attendee : googleAttendees) {
-						MeeticalAttendee meeticalAttendee = new MeeticalAttendee();
-						meeticalAttendee.setEmail(attendee.getEmail());
-						meeticalAttendee.setIsOrganizer(item.getOrganizer().getSelf() ? 1 : 0);
-						meeticalAttendee.setResponseStatus(attendee.getResponseStatus());
-
-						meeticalAttendees.add(meeticalAttendee);
-					}
-
-					event.setAttendees(meeticalAttendees);
-				}
-
-				event.setRecurringEventId(item.getRecurringEventId());
-				event.setId(item.getId());
-				event.setCalendarHtmlLinkProxy(item.getHtmlLink());
-
-				meeticalObject.setEvent(event);
-				meeticalObjects.add(meeticalObject);
-			}
-
-
-
+			return MeeticalClientServiceTransformer.transform(meeticalGoogleObject);
 		} catch (IOException ex) {
 			throw new MeeticalClientException(ex.getMessage());
 		}
-
-		return meeticalObjects;
 	}
 
 	private List<MeeticalObject> getMicrosoftMeetings() {
@@ -112,8 +57,7 @@ public class MeeticalClientServiceImpl implements MeeticalClientService {
 			// create object mapper instance
 			ObjectMapper mapper = new ObjectMapper();
 
-			BufferedReader br = new BufferedReader(
-					new FileReader("src/main/resources/microsoft-event-data.json"));
+			BufferedReader br = new BufferedReader(new FileReader("src/main/resources/microsoft-event-data.json"));
 
 			MeeticalMicrosoft meeticalMicrosoftObject = mapper.readValue(br, MeeticalMicrosoft.class);
 
@@ -161,8 +105,7 @@ public class MeeticalClientServiceImpl implements MeeticalClientService {
 
 			}
 
-
-		}catch (Exception e) {
+		} catch (Exception e) {
 			// TODO: handle exception
 		}
 		return null;

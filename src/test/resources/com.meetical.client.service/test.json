@@ -1,0 +1,486 @@
+{
+  "kind": "calendar#events",
+  "etag": "\"p33cd7u6sqmmf00g\"",
+  "summary": "anna.berlin.meetical@gmail.com",
+  "updated": "2021-05-03T04:25:56.503Z",
+  "timeZone": "Europe/Zurich",
+  "accessRole": "owner",
+  "defaultReminders": [
+    {
+      "method": "popup",
+      "minutes": 30
+    }
+  ],
+  "nextPageToken": "CjkKKzBxZnNzM3FqNDVsZmZnNTR1MjBwYmxyZWVnXzIwMjAwNDE1VDA4MDAwMFoYASCAgIDPgpCSmBcaDwgAEgAY2NP43NWs8AIgASIHCAIQhLmUFA==",
+  "items": [
+    {
+      "kind": "calendar#event",
+      "etag": "\"3130044793354000\"",
+      "id": "0ueavb460ph601q88ai4mm1fb6",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MHVlYXZiNDYwcGg2MDFxODhhaTRtbTFmYjZfMjAxOTA4MDVUMTMwMDAwWiBhbm5hLmJlcmxpbi5tZWV0aWNhbEBt",
+      "created": "2019-08-05T16:25:20.000Z",
+      "updated": "2019-08-05T16:26:36.677Z",
+      "summary": "Series A",
+      "description": "Test 123<br><br><br>-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --<br>Confluence page for this event: <a href=\"https://confluence-demo1.meetical.io/pages/viewpage.action?pageId=10158096\">https://confluence-demo1.meetical.io/pages/viewpage.action?pageId=10158096</a> (This Link was automatically added by Meetical.io)",
+      "creator": {
+        "email": "anna.berlin.meetical@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "anna.berlin.meetical@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2019-08-05T15:00:00+02:00",
+        "timeZone": "Europe/Zurich"
+      },
+      "end": {
+        "dateTime": "2019-08-05T16:00:00+02:00",
+        "timeZone": "Europe/Zurich"
+      },
+      "recurrence": [
+        "RRULE:FREQ=DAILY;COUNT=4"
+      ],
+      "iCalUID": "0ueavb460ph601q88ai4mm1fb6@google.com",
+      "sequence": 0,
+      "extendedProperties": {
+        "private": {
+          "everyoneDeclinedDismissed": "-1"
+        }
+      },
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3130175965752000\"",
+      "id": "0ueavb460ph601q88ai4mm1fb6_20190805T130000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MHVlYXZiNDYwcGg2MDFxODhhaTRtbTFmYjZfMjAxOTA4MDVUMTMwMDAwWiBhbm5hLmJlcmxpbi5tZWV0aWNhbEBt",
+      "created": "2019-08-05T16:25:20.000Z",
+      "updated": "2019-08-06T10:39:42.876Z",
+      "summary": "Series A",
+      "description": "Test 123<br><br><br>-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --<br>Confluence page for this event: <a href=\"https://confluence-demo1.meetical.io/pages/viewpage.action?pageId=10158108\">https://confluence-demo1.meetical.io/pages/viewpage.action?pageId=10158108</a> (This Link was automatically added by Meetical.io)",
+      "creator": {
+        "email": "anna.berlin.meetical@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "anna.berlin.meetical@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2019-08-05T15:00:00+02:00",
+        "timeZone": "Europe/Zurich"
+      },
+      "end": {
+        "dateTime": "2019-08-05T16:00:00+02:00",
+        "timeZone": "Europe/Zurich"
+      },
+      "recurringEventId": "0ueavb460ph601q88ai4mm1fb6",
+      "originalStartTime": {
+        "dateTime": "2019-08-05T15:00:00+02:00",
+        "timeZone": "Europe/Zurich"
+      },
+      "iCalUID": "0ueavb460ph601q88ai4mm1fb6@google.com",
+      "sequence": 3,
+      "extendedProperties": {
+        "private": {
+          "everyoneDeclinedDismissed": "-1"
+        }
+      },
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3130191852256000\"",
+      "id": "3s98v7vln96br52ot38g4vbncg",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=M3M5OHY3dmxuOTZicjUyb3QzOGc0dmJuY2cgYW5uYS5iZXJsaW4ubWVldGljYWxAbQ",
+      "created": "2019-08-05T08:10:13.000Z",
+      "updated": "2019-08-06T12:52:06.128Z",
+      "summary": "Just a Meeting x",
+      "description": "\n-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --\nConfluence page for this event: https://confluence-demo1.meetical.io/pages/viewpage.action?pageId=10158082 (This Link was automatically added by Meetical.io)",
+      "creator": {
+        "email": "anna.berlin.meetical@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "anna.berlin.meetical@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2019-08-06T11:45:00+02:00"
+      },
+      "end": {
+        "dateTime": "2019-08-06T12:45:00+02:00"
+      },
+      "iCalUID": "3s98v7vln96br52ot38g4vbncg@google.com",
+      "sequence": 18,
+      "attendees": [
+        {
+          "email": "someone@meetical.io",
+          "responseStatus": "needsAction"
+        },
+        {
+          "email": "anna.berlin.meetical@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        }
+      ],
+      "extendedProperties": {
+        "private": {
+          "everyoneDeclinedDismissed": "-1"
+        }
+      },
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3130192276684000\"",
+      "id": "0ueavb460ph601q88ai4mm1fb6_20190806T130000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MHVlYXZiNDYwcGg2MDFxODhhaTRtbTFmYjZfMjAxOTA4MDZUMTMwMDAwWiBhbm5hLmJlcmxpbi5tZWV0aWNhbEBt",
+      "created": "2019-08-05T16:25:20.000Z",
+      "updated": "2019-08-06T12:55:38.342Z",
+      "summary": "Series A",
+      "description": "Test 123\n-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --\nConfluence page for this event: https://confluence-demo1.meetical.io/pages/viewpage.action?pageId=10649617 (This Link was automatically added by Meetical.io)",
+      "creator": {
+        "email": "anna.berlin.meetical@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "anna.berlin.meetical@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2019-08-06T15:00:00+02:00",
+        "timeZone": "Europe/Zurich"
+      },
+      "end": {
+        "dateTime": "2019-08-06T16:00:00+02:00",
+        "timeZone": "Europe/Zurich"
+      },
+      "recurringEventId": "0ueavb460ph601q88ai4mm1fb6",
+      "originalStartTime": {
+        "dateTime": "2019-08-06T15:00:00+02:00",
+        "timeZone": "Europe/Zurich"
+      },
+      "iCalUID": "0ueavb460ph601q88ai4mm1fb6@google.com",
+      "sequence": 0,
+      "extendedProperties": {
+        "private": {
+          "everyoneDeclinedDismissed": "-1"
+        }
+      },
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3130208167972000\"",
+      "id": "4r1ttitd80esre1o33ofjgks7l",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NHIxdHRpdGQ4MGVzcmUxbzMzb2ZqZ2tzN2wgYW5uYS5iZXJsaW4ubWVldGljYWxAbQ",
+      "created": "2019-08-06T10:50:11.000Z",
+      "updated": "2019-08-06T15:08:03.986Z",
+      "summary": "Nuuu",
+      "description": "Best in place\n-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --\nConfluence page for this event: https://confluence-demo1.meetical.io/pages/viewpage.action?pageId=10649612 (This Link was automatically added by Meetical.io)",
+      "creator": {
+        "email": "anna.berlin.meetical@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "anna.berlin.meetical@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2019-08-07T11:45:00+02:00"
+      },
+      "end": {
+        "dateTime": "2019-08-07T12:45:00+02:00"
+      },
+      "iCalUID": "4r1ttitd80esre1o33ofjgks7l@google.com",
+      "sequence": 2,
+      "extendedProperties": {
+        "private": {
+          "everyoneDeclinedDismissed": "-1"
+        }
+      },
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3130208652838000\"",
+      "id": "230flpsve0951rnuem9bk1haul",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MjMwZmxwc3ZlMDk1MXJudWVtOWJrMWhhdWwgYW5uYS5iZXJsaW4ubWVldGljYWxAbQ",
+      "created": "2019-08-05T14:22:11.000Z",
+      "updated": "2019-08-06T15:12:06.419Z",
+      "summary": "new meeting",
+      "description": "<br><br><br>-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --<br>Confluence page for this event: <a href=\"https://confluence-demo1.meetical.io/pages/viewpage.action?pageId=10158095\" id=\"ow268\" __is_owner=\"true\">https://confluence-demo1.meetical.io/pages/viewpage.action?pageId=10158095</a> (This Link was automatically added by Meetical.io)<br><br>-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --<br>Confluence page for this event: https://confluence-demo1.meetical.io/pages/viewpage.action?pageId=10158095 (This Link was automatically added by Meetical.io)",
+      "creator": {
+        "email": "anna.berlin.meetical@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "anna.berlin.meetical@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2019-08-05T11:00:00+02:00"
+      },
+      "end": {
+        "dateTime": "2019-08-05T12:00:00+02:00"
+      },
+      "iCalUID": "230flpsve0951rnuem9bk1haul@google.com",
+      "sequence": 14,
+      "extendedProperties": {
+        "private": {
+          "everyoneDeclinedDismissed": "-1"
+        }
+      },
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3130208655904000\"",
+      "id": "29oiqcjorhrag4np5gv3pda054",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MjlvaXFjam9yaHJhZzRucDVndjNwZGEwNTQgYW5uYS5iZXJsaW4ubWVldGljYWxAbQ",
+      "created": "2019-08-06T14:33:58.000Z",
+      "updated": "2019-08-06T15:12:07.952Z",
+      "summary": "new irrelevant meeting",
+      "creator": {
+        "email": "anna.berlin.meetical@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "anna.berlin.meetical@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2019-08-07T10:30:00+02:00"
+      },
+      "end": {
+        "dateTime": "2019-08-07T11:30:00+02:00"
+      },
+      "iCalUID": "29oiqcjorhrag4np5gv3pda054@google.com",
+      "sequence": 25,
+      "extendedProperties": {
+        "private": {
+          "everyoneDeclinedDismissed": "-1"
+        }
+      },
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3130364333962000\"",
+      "id": "6e018af9ekdm1u24ppu4maefl3",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NmUwMThhZjlla2RtMXUyNHBwdTRtYWVmbDMgYW5uYS5iZXJsaW4ubWVldGljYWxAbQ",
+      "created": "2019-08-07T12:43:28.000Z",
+      "updated": "2019-08-07T12:49:26.981Z",
+      "summary": "Test notific",
+      "description": "#D13\n-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --\nConfluence page for this event: https://confluence-demo1.meetical.io/pages/viewpage.action?pageId=10977298 (This Link was automatically added by Meetical.io)",
+      "creator": {
+        "email": "anna.berlin.meetical@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "anna.berlin.meetical@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2019-08-07T14:00:00+02:00"
+      },
+      "end": {
+        "dateTime": "2019-08-07T15:00:00+02:00"
+      },
+      "iCalUID": "6e018af9ekdm1u24ppu4maefl3@google.com",
+      "sequence": 0,
+      "attendees": [
+        {
+          "email": "anna.berlin.meetical@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "testuser201218@gmail.com",
+          "responseStatus": "needsAction"
+        }
+      ],
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3130364884704000\"",
+      "id": "6mt275l8ra10mji959vnmvv7kk",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Nm10Mjc1bDhyYTEwbWppOTU5dm5tdnY3a2sgYW5uYS5iZXJsaW4ubWVldGljYWxAbQ",
+      "created": "2019-08-07T12:53:12.000Z",
+      "updated": "2019-08-07T12:54:02.352Z",
+      "summary": "Test notifüc 2",
+      "description": "\nHappy to invite you bla bla\n\n#D13\n-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --\nConfluence page for this event: https://confluence-demo1.meetical.io/pages/viewpage.action?pageId=10977301 (This Link was automatically added by Meetical.io)",
+      "creator": {
+        "email": "anna.berlin.meetical@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "anna.berlin.meetical@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2019-08-08T14:00:00+02:00"
+      },
+      "end": {
+        "dateTime": "2019-08-08T15:00:00+02:00"
+      },
+      "iCalUID": "6mt275l8ra10mji959vnmvv7kk@google.com",
+      "sequence": 1,
+      "attendees": [
+        {
+          "email": "anna.berlin.meetical@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "testuser201218@gmail.com",
+          "responseStatus": "needsAction"
+        }
+      ],
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3130383704708000\"",
+      "id": "2po840ipd9dbo46hinield5hkl",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MnBvODQwaXBkOWRibzQ2aGluaWVsZDVoa2wgYW5uYS5iZXJsaW4ubWVldGljYWxAbQ",
+      "created": "2019-08-07T15:30:36.000Z",
+      "updated": "2019-08-07T15:30:52.354Z",
+      "summary": "Lustig Anna",
+      "description": "<b>Yeah</b><br><br>#D13<hr class=\"x-meetical-marker-class\">Confluence page for this event: <a href=\"https://confluence-demo1.meetical.io/pages/viewpage.action?pageId=10977315\">Lustig Anna</a> (This Link was automatically added by Meetical.io)",
+      "creator": {
+        "email": "anna.berlin.meetical@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "anna.berlin.meetical@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2019-08-06T14:00:00+02:00"
+      },
+      "end": {
+        "dateTime": "2019-08-06T15:00:00+02:00"
+      },
+      "iCalUID": "2po840ipd9dbo46hinield5hkl@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3130384277524000\"",
+      "id": "5tbgsb1egviem628eenv7l4d2m",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NXRiZ3NiMWVndmllbTYyOGVlbnY3bDRkMm0gYW5uYS5iZXJsaW4ubWVldGljYWxAbQ",
+      "created": "2019-08-07T15:34:15.000Z",
+      "updated": "2019-08-07T15:35:38.762Z",
+      "summary": "Lustig 4",
+      "description": "<b>hi</b><hr class=\"x-meetical-marker-class\">Confluence page for this event: <a href=\"https://confluence-demo1.meetical.io/pages/viewpage.action?pageId=10977320\">Lustig 4</a> (This Link was automatically added by Meetical.io)",
+      "creator": {
+        "email": "anna.berlin.meetical@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "anna.berlin.meetical@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2019-08-07T19:00:00+02:00"
+      },
+      "end": {
+        "dateTime": "2019-08-07T20:00:00+02:00"
+      },
+      "iCalUID": "5tbgsb1egviem628eenv7l4d2m@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3130434855644000\"",
+      "id": "07o76gj3fo0lremmtvkohng9k5",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MDdvNzZnajNmbzBscmVtbXR2a29obmc5azUgYW5uYS5iZXJsaW4ubWVldGljYWxAbQ",
+      "created": "2019-08-07T12:57:08.000Z",
+      "updated": "2019-08-07T22:37:07.822Z",
+      "summary": "Test notific 3 good night",
+      "description": "Hi,<br>öÖÖ<br><b>Test 123</b><br><b><br></b><hr>Confluence page for this event: <a href=\"https://confluence-demo1.meetical.io/pages/viewpage.action?pageId=10977304\">Test notific 3</a> (This Link was automatically added by Meetical.io)",
+      "creator": {
+        "email": "anna.berlin.meetical@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "anna.berlin.meetical@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2019-08-07T16:00:00+02:00"
+      },
+      "end": {
+        "dateTime": "2019-08-07T17:00:00+02:00"
+      },
+      "iCalUID": "07o76gj3fo0lremmtvkohng9k5@google.com",
+      "sequence": 0,
+      "attendees": [
+        {
+          "email": "anna.berlin.meetical@gmail.com",
+          "organizer": true,
+          "self": true,
+          "responseStatus": "accepted"
+        }
+      ],
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    }
+  ]
+}
