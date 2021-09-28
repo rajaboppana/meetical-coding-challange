@@ -31,6 +31,7 @@ public class MeeticalResource {
 		try {
 			meeticalObjectList = meeticalService.getMeetings("anna");
 
+			// asd
 			MeeticalResponseTransfer meeticalResponseTransfer = new MeeticalResponseTransfer();
 			meeticalResponseTransfer.setMeeticalObject(meeticalObjectList);
 			return meeticalResponseTransfer;
